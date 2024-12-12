@@ -1,0 +1,334 @@
+@media print {
+
+    #kt_header,
+    #kt_footer,
+    #kt_toolbar,
+    title,
+    .page-title {
+        display: none !important;
+    }
+
+    @page {
+        size: A4;
+        margin: 0mm;
+    }
+}
+
+.card {
+    max-width: max-content !important;
+}
+
+.id-card-container {
+    width: 635px;
+    /* 755px;  */
+    overflow: hidden;
+    position: relative;
+    color-adjust: exact !important;
+    -webkit-print-color-adjust: exact !important;
+}
+
+.institute {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.institute h6 {
+    margin-bottom: 10px;
+    color: #32347e;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.3px;
+    font-weight: 700 !important;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.institute p {
+    margin: 0;
+    color: black;
+    line-height: 1;
+}
+
+.id-card {
+    overflow: hidden;
+    position: relative;
+    color: white;
+    font-weight: 600;
+    padding: 1px 10px;
+    overflow: hidden;
+    margin: 11px auto;
+    width: max-content;
+    border-radius: 5px;
+    background: lightseagreen;
+    box-shadow: 0 0 2px #3f425499;
+}
+
+.details {
+    width: 100%;
+    margin: auto;
+}
+
+.id-card-table {
+    min-width: 100%;
+    height: 1120px;
+    padding-top: 10px;
+    margin: 0 !important;
+    overflow: hidden;
+    position: relative;
+    /* margin: 2px 0 75px 0 !important; */
+}
+
+.id-card-table:last-child {
+    margin: 0 !important;
+}
+
+.id-card-table .row {
+    overflow: hidden;
+    position: relative;
+    min-width: 100%;
+    border-bottom: 0 !important;
+}
+
+.id-card-table .row .back-part {
+    position: relative;
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 3px !important;
+    border: 1px dotted black;
+}
+
+.id-card-table .row .back-part:nth-child(1) {
+    border-left: 0 !important;
+}
+
+.id-card-table .row:nth-child(1) td {
+    border-top: 0 !important;
+}
+
+.id-card-table .row .back-part:last-child {
+    border-right: 0 !important;
+    padding-right: 0 !important;
+}
+
+img.layout {
+    width: 212px;
+    height: 327px;
+    position: relative;
+    z-index: 1;
+}
+
+.id-card-table .row .back-part:last-child img.layout {
+    width: 211px !important;
+}
+
+.id-card-table .back-part .contain {
+    top: 3px;
+    left: 3px;
+    padding: 1px 0px 2px 1px;
+    border: 0.1px solid #e0e0e0;
+    z-index: 999;
+    position: absolute;
+    margin: auto;
+    width: 211px;
+    height: 327px;
+    overflow: hidden;
+    color: black !important;
+}
+
+.logo {
+    width: 100%;
+    margin: 18px auto 10px auto;
+    text-align: center;
+}
+
+.logo img {
+    margin: auto;
+    width: 45px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px black;
+}
+
+.identity {
+    font-size: 9px;
+    font-weight: 700;
+    color: #f9ea00;
+    background-color: #009141;
+    width: max-content;
+    margin: 0 auto 7px auto;
+    padding: 6px 5px 7px 5px;
+    border-radius: 50px;
+    line-height: 1px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.user-photo {
+    width: max-content;
+    margin: auto;
+}
+
+.user-photo img {
+    width: 84px;
+    height: 90px;
+    border-radius: 0;
+    margin: 0 auto;
+    border: 1px solid #8c8c8c;
+    background: white;
+    margin-top: 4px;
+}
+
+.academic-info {
+    padding-left: 13px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.academic-info p {
+    line-height: 12px;
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0 !important;
+    color: black !important;
+}
+
+.academic-info p label {
+    width: 35px;
+    text-align: left;
+    font-weight: 600;
+    line-height: 8px;
+    font-size: 10px;
+}
+
+.academic-info label b {
+    padding-right: 2px;
+}
+
+.academic-info p span {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+p.name label {
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 12px;
+}
+
+p.validity {
+    font-size: 10px;
+    font-weight: 600;
+    width: max-content;
+    margin: 7px 0 0 13px;
+}
+
+.signature {
+    position: absolute;
+    width: max-content;
+    right: 8px;
+    bottom: 8px;
+}
+
+.signature img {
+    height: 18px;
+}
+
+.principal {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 10px;
+    border-top: 0.1px solid #5a5a5a;
+}
+
+.back {
+    /* height: 350px; */
+}
+
+.back .row .back-part {
+    border: 0 !important;
+}
+
+.back .contain {
+    padding-left: 18px !important;
+    padding-right: 6px !important;
+}
+
+.back .contain h5 {
+    font-size: 10px;
+    margin: 10px 0 0 45px;
+    padding: 0 3px;
+    width: max-content;
+    border-bottom: 0.9px solid #585858;
+}
+
+.back .contain p {
+    margin-bottom: 1px;
+    font-size: 7px;
+    line-height: 8px;
+    color: #000;
+}
+
+.back .bangla {
+    font-family: 'Tiro Bangla', serif;
+}
+
+.back .contain .palon {
+    margin: 10px 0 2px 5px;
+    font-size: 8px;
+}
+
+.school {
+    text-align: center;
+    margin: 4px 0 5px 0;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contact {
+    text-align: center;
+    font-size: 6.8px !important;
+}
+
+p.new-line {
+    padding-left: 10px;
+}
+
+.app-information-section {
+    margin: 10px auto;
+    padding-top: 2px;
+    text-align: center;
+    width: max-content;
+    border-top: 0.1px solid black;
+}
+
+.app-information-section p {
+    text-align: center;
+    line-height: 6px;
+    font-size: 6px;
+    margin: 0;
+}
+
+.back .row .back-part.border-0 {
+    border: 0 !important;
+}
+
+.back .row .back-part {
+    z-index: 9;
+}
+
+.back .back-part {
+    z-index: 99;
+}
+
+.found {
+    background: green;
+    color: white;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+.back .contain {
+    position: relative !important
+}

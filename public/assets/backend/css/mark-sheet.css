@@ -1,0 +1,577 @@
+.school-info {
+    max-width: fit-content;
+    margin: auto;
+}
+
+#school-logo {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-top: -12px;
+    margin-bottom: 5px;
+}
+
+.details-info {
+    margin-left: 8px;
+    width: max-content;
+    float: right;
+}
+
+.details-info h2 {
+    margin-bottom: 2px;
+}
+
+.details-info p {
+    line-height: 1;
+    font-weight: 600;
+}
+
+.success,
+.fail,
+.total {
+    font-weight: bolder !important;
+}
+
+.success {
+    color: #00af00 !important;
+}
+
+.download {
+    color: white;
+    float: right;
+    font-weight: bold;
+    transition: all 0.2s;
+    padding: 5px 25px 6px 25px;
+    background: linear-gradient(-45deg, #1d5086, #00b1b3, #1d5086);
+}
+
+.download:hover {
+    color: white;
+    background: linear-gradient(-45deg, #00b1b3, #1d5086, #00b1b3);
+}
+
+#markSheet {
+    width: 770px;
+    height: 1080px;
+    position: relative;
+    padding: 0 !important;
+    margin: 15px auto !important;
+    border: 5px solid #b5b5c3;
+    margin: auto;
+}
+
+#markSheet .second {
+    height: 100%;
+    /* border: 8px solid #00a7ef; */
+    border: 8px solid #ffff99;
+}
+
+#markSheet .markSheet {
+    height: 100%;
+    margin: 0 !important;
+    padding: 18px 30px 0 30px !important;
+    border: 2px solid #656565;
+}
+
+.markSheet table tr td {
+    padding: 2px 12px !important;
+}
+table#info_details tr td {
+    padding: 3px 12px !important;
+}
+
+.markSheet table tr th {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+
+.markSheet .table tr {
+    border-bottom: 1px solid #EFF2F5;
+}
+
+#markSheet .symbol-100px>img {
+    width: 95px;
+    height: 100px;
+    margin-bottom: 8px;
+    border: 1px solid #d1d1d1;
+    border-radius: 0;
+}
+
+#markSheet .markSheet .m-sheet tbody tr td:nth-child(1) {
+    text-align: left !important;
+    padding-right: 0 !important;
+}
+
+.m-sheet thead tr {
+    background: #edfafa;
+}
+
+#markSheet .m-sheet>thead>tr th {
+    padding: 3px 8px !important;
+    font-weight: 800;
+}
+
+#markSheet .m-sheet>tbody>tr td,
+#markSheet .m-sheet>tbody>tr th {
+    border: 1px solid black;
+}
+
+.middle {
+    width: 230px;
+    position: relative;
+}
+
+.middle h4 {
+    position: absolute;
+    bottom: 5px;
+    width: 200px;
+    text-align: center;
+    left: 30px;
+    border-bottom: 0.16rem solid #009933;
+}
+
+#gpa {
+    width: 150px;
+    position: absolute;
+    top: -15px;
+    right: 10px;
+}
+
+#gpa thead tr th {
+    border: 1px solid black;
+    font-weight: bolder;
+    background: #fff1c0;
+    padding: 0 !important;
+}
+
+#gpa tbody {
+    border-bottom: 1px solid black;
+}
+
+#gpa tbody tr td {
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 1;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 1px !important;
+}
+
+.student-info p {
+    color: black;
+    font-weight: bolder;
+    margin: 0 !important;
+}
+
+.student-info p:nth-child(1) {
+    margin-top: 8px;
+}
+
+.student-info p label {
+    font-weight: 600;
+    width: 95px;
+}
+
+.student-info2 p label {
+    width: 80px !important;
+}
+
+.student-info p span {
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.info_details tr td {
+    color: black;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    border: 1px solid black;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.info_details tr th {
+    color: black;
+    font-weight: bolder;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    border: 1px solid #8f8f8f;
+    border-bottom-width: 3px;
+    font-size: 11px;
+    line-height: 1;
+}
+
+.info_details tbody {
+    border-bottom: 1px solid black;
+}
+
+#markSheet table,
+#markSheet table thead tr td,
+#markSheet .markSheet table thead tr,
+#markSheet .markSheet table thead tr th,
+#markSheet .markSheet p,
+#markSheet .markSheet label,
+#markSheet .markSheet span,
+#markSheet .markSheet h1,
+#markSheet .markSheet h2,
+#markSheet .markSheet h3,
+#markSheet .markSheet h4,
+#markSheet .markSheet {
+    color: black !important;
+}
+
+#markSheet .markSheet .table tr,
+#markSheet .markSheet .table th,
+#markSheet .markSheet .table td {
+    border: 1px solid black;
+    border-color: black;
+}
+
+.successInfo,
+.successInfo th {
+    color: #009900 !important;
+    font-weight: bolder !important;
+}
+
+.failInfo,
+.failInfo th {
+    /* color: red !important; */
+    color: #de3c3c !important;
+}
+
+.successInfo th,
+.failInfo th {
+    background: #f5f5dc;
+    font-weight: bolder !important;
+    padding: 3px 5px !important;
+}
+
+td.successInfo,
+td.failInfo {
+    font-size: 14px;
+    line-height: 0;
+}
+
+#comment {
+    height: 77px;
+    padding: 1px 3px;
+    border: 1px solid black;
+}
+
+#comment span {
+    padding-right: 5px;
+    border-bottom: 1px solid black;
+}
+
+/* Footer part */
+#footerPart {
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    max-width: 100%;
+    padding: 0 20px;
+    position: absolute;
+}
+
+#footerPart p {
+    width: max-content;
+    color: black;
+    padding: 0 15px;
+    text-align: center;
+    border-top: 1px dashed black;
+}
+
+#footerPart img {
+    height: 50px;
+    margin: auto;
+}
+
+#headmasterSignature {
+    height: 60px;
+    text-align: center;
+    width: max-content;
+    position: absolute;
+    bottom: 25px;
+}
+
+.hideShow {
+    margin: auto;
+    width: 785px;
+    position: relative;
+    padding-bottom: 25px !important;
+}
+
+/* end */
+#poweredBy {
+    position: relative;
+}
+#poweredBy p {
+    top: -5px;
+    left: 8px;
+    margin: 0;
+    color: black;
+    line-height: 0;
+    font-size: 12px;
+    position: absolute;
+}
+
+#markSheet .m-sheet th#obtaining {
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.m-sheet th#obtaining .table tr,
+.m-sheet th#obtaining .table th {
+    border: 0px !important;
+    border-width: 0px !important;
+}
+
+#markSheet .m-sheet thead tr th#obtaining .table tr td {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center !important
+}
+
+#markSheet .m-sheet thead tr th:nth-child(1) {
+    padding-bottom: 12px !important;
+    width: 227px !important;
+}
+
+#markSheet .m-sheet th#obtaining table {
+    margin: 0;
+    width: 100%;
+}
+
+#markSheet .m-sheet thead>tr>th,
+.m-sheet {
+    border-bottom: 1px solid black;
+}
+
+.m-sheet th#obtaining .table tbody tr td:nth-child(1) {
+    border-left: 0px !important;
+}
+
+.m-sheet th#obtaining .table tbody tr td:last-child {
+    border-right: 0px !important;
+}
+
+#markSheet .m-sheet th#obtaining table tbody td {
+    padding: 3px 8px !important;
+}
+
+#markSheet .m-sheet>thead>tr th>table th {
+    padding: 12px 0 !important;
+    line-height: 0;
+}
+
+#markTbody td.subexam-c {
+    padding: 0 !important;
+}
+
+#markTbody .subexam-table {
+    width: 100%;
+}
+
+#markTbody tr>td>table.subexam-table>tbody tr {
+    border: 0 !important;
+}
+
+#markSheet .m-sheet #markTbody tr>td>table.subexam-table>tbody tr>td {
+    border: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center !important;
+    border-right: 1px solid black;
+}
+
+#markTbody tr>td>table.subexam-table>tbody tr>td:last-child {
+    border-right: 0 !important
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======Final marksheet====== */
+#fs_mark_sheet_container #fs_markSheet {
+    position: relative;
+    padding: 0 !important;
+    margin: 15px auto !important;
+    border: 5px solid #b5b5c3;
+    margin: auto;
+}
+
+#fs_mark_sheet_container #fs_markSheet .second {
+    height: 100%;
+    /* border: 8px solid #00a7ef; */
+    border: 8px solid #ffff99;
+}
+
+#fs_mark_sheet_container #fs_markSheet .markSheet {
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 2px solid #656565;
+}
+#fs_mark_sheet_container #fs_markSheet .markSheet > .row {
+    padding: 18px 30px 0 30px !important;
+}
+#fs_mark_sheet_container #fs_markSheet .markSheet > .body-container {
+    padding: 2px 30px !important;
+}
+
+#fs_mark_sheet_container #fs_markSheet .symbol-100px>img {
+    width: 95px;
+    height: 100px;
+    margin-bottom: 8px;
+    border: 1px solid #d1d1d1;
+    border-radius: 0;
+}
+
+#fs_mark_sheet_container #fs_markSheet .m-sheet > thead > tr th {
+    padding: 3px 8px !important;
+    font-weight: 800;
+}
+
+#fs_mark_sheet_container #fs_markSheet .m-sheet>tbody>tr td,
+#fs_mark_sheet_container #fs_markSheet .m-sheet>tbody>tr th,
+#fs_mark_sheet_container #fr_info_details tbody > tr td {
+    color: black;
+    border: 1px solid black !important;
+}
+#fs_mark_sheet_container #mark_sheet_container {
+    margin-left: 10px !important;
+}
+#fs_mark_sheet_container .new-middle {
+    position: relative;
+}
+#fs_mark_sheet_container .student-info2 p label {
+    width: 80px !important
+}
+#fs_mark_sheet_container .new-middle h4 {
+    width: 100%;
+    text-align: center;
+    padding: 0 60px;
+    margin: auto;
+    border-bottom: 0.16rem solid #009933;
+}
+#fs_mark_sheet_container .school-info {
+    margin: inherit;
+}
+#fs_mark_sheet_container .head-title {
+    left: 0;
+    top: 10px;
+    width: 100%;
+    position: absolute;
+}
+#fs_mark_sheet_container .info-cc {
+    width: 250px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#fs_mark_sheet_container .pr {
+    position: relative;
+}
+#fs_mark_sheet_container .head-title label {
+    width: 50px !important;
+}
+#fs_mark_sheet_container .head-title span {
+    margin-left: 5px;
+    font-weight: bolder;
+}
+#fs_mark_sheet_container .head-title p, .info-cc p {
+    font-weight: 600;
+    margin: 0 !important;
+}
+#fs_mark_sheet_container .head-container {
+    width: 410px;
+    margin: auto;
+    padding-right: 70px;
+    position: relative;
+}
+#fs_mark_sheet_container table#fr_info_details tr th {
+    font-weight: 900;
+    padding: 2px 3px !important;
+    background: #edfafa;
+    line-height: 1;
+    border: 1px solid black;
+}
+#fs_mark_sheet_container table#fr_info_details tr.bolder td {
+    font-weight: bold !important;
+}
+#fs_mark_sheet_container table#fr_info_details #position {
+    font-weight: 900;
+    text-align: center;
+    font-size: 15px;
+}
+#fs_mark_sheet_container table#fr_info_details tr th {
+    font-weight: 900;
+    padding: 2px 3px !important;
+    background: #edfafa;
+    line-height: 1;
+    border: 1px solid black;
+}
+
+#fs_mark_sheet_container .hideShow {
+    width: max-content !important;
+}
+#fs_markSheet .m-sheet>thead > tr#sub_th th {
+    padding:3px 8px !important;
+    text-align:center !important;
+}
+#fs_markSheet table.m-sheet tr td, #fs_markSheet tbody#mark_sheet_footer tr td, #fr_info_details tbody > tr td {
+    padding: 1px 8px !important;
+    font-size: 12px !important;
+    text-align: center;
+}
+#fs_mark_sheet_container #fs_markSheet .markSheet .m-sheet tbody tr td:nth-child(1),
+#fs_markSheet tbody#mark_sheet_footer tr td:nth-child(1) {
+    text-align: left !important;
+}
+
+#fs_mark_sheet_container .student-info p,
+#fs_mark_sheet_container .head-title p,
+#fs_mark_sheet_container .info-cc p,
+#fs_markSheet table.m-sheet>thead>tr th {
+    font-size: 12px !important;
+}
+#fs_markSheet table.m-sheet>thead>tr th {
+    border: 1px solid black !important;
+}
+#fs_mark_sheet_container  #school-logo {
+    margin-top: -15px !important;
+}
+#fs_mark_sheet_container #headmasterSignature {
+    right: 50px;
+}
+.gpa-table thead tr th {
+    color: black;
+}
+
+.mw-1165px {
+    margin: auto;
+}
+#fs_mark_sheet_container #fs_markSheet  #head_c > tr:first-child > th:nth-child(1) {
+    padding-bottom: 25px !important;
+}
+#markSheet table.m-sheet>thead>tr > th.sub-exam-th,
+#markSheet table.m-sheet>tbody>tr > td {
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+    text-align: center !important;
+}
+#markSheet table.m-sheet>thead>tr > th.sub-exam-th:first-child,
+#markSheet table.m-sheet>tbody>tr > td:first-child {
+    text-align: left !important;
+    padding-left: 5px !important;
+}

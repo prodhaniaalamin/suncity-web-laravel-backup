@@ -1,0 +1,243 @@
+.w-full {
+    width: 100% !important;
+}
+
+.hide {
+    display: none;
+}
+
+.w-170px {
+    width: 170px !important
+}
+
+.min-w-220px {
+    min-width: 220px !important
+}
+.min-w-210px {
+    min-width: 210px !important
+}
+
+#kt_aside_menu_wrapper span i {
+    font-size: 1.3rem !important;
+}
+
+span.presences {
+    color: #1BC5BD !important;
+}
+
+span.absences {
+    color: #F64E60 !important;
+}
+
+.btn.btn-success {
+    color: #ffffff;
+    background-color: #1BC5BD;
+    border-color: #1BC5BD;
+}
+
+.form-check.form-check-success .form-check-input:checked {
+    background-color: #1BC5BD !important;
+}
+
+
+/* For radio button */
+.form-check label {
+    z-index: 9;
+    cursor: pointer;
+    min-width: max-content;
+}
+
+/* end radio button */
+
+.btn.btn-success:not(:disabled):not(.disabled):active:not(.btn-text),
+.btn.btn-success:not(:disabled):not(.disabled).active,
+.show>.btn.btn-success.dropdown-toggle,
+.show .btn.btn-success.btn-dropdown {
+    color: #ffffff !important;
+    background-color: #0BB7AF !important;
+    border-color: #0BB7AF !important;
+}
+
+.btn.btn-outline-success {
+    color: #0BB7AF !important;
+}
+
+.btn.btn-success:hover:not(.btn-text):not(:disabled):not(.disabled),
+.btn.btn-success:focus:not(.btn-text), .btn-outline-success:hover,
+.btn.btn-success.focus:not(.btn-text) {
+    color: #ffffff !important;
+    background-color: #0BB7AF !important;
+    border-color: #0BB7AF !important;
+}
+
+/* for sms manage */
+.shadow-sm {
+    min-width: 250px;
+}
+
+.fs-16 {
+    font-size: 15px !important;
+    font-weight: bold;
+}
+
+.sms-write {
+    position: relative !important;
+    text-align: center !important;
+}
+
+.sms-write .label {
+    display: none;
+    position: absolute !important;
+    width: max-content !important;
+    color: white !important;
+    right: 9px !important;
+    top: -25px !important;
+    padding: 3px 12px;
+    border-radius: 3px;
+}
+
+.sms-write .label-success {
+    background: #1BC5BD !important;
+}
+
+.sms-write .label-danger {
+    background: #F64E60 !important;
+}
+
+#sms_count {
+    position: absolute;
+    right: 8px;
+}
+
+/* for sms manage */
+
+/* validation error */
+.validation-error .error-alert {
+    color: #ff0000 !important;
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+.form-check:not(.form-switch) .form-check-input[type=checkbox] {
+    background-size: 85% 69%;
+}
+
+span.switch-button {
+    cursor: pointer;
+}
+
+.container-xxl {
+    max-width: 1500px;
+}
+
+span.svg-icon.svg-icon-2 img, .menu-icon .svg-icon.svg-icon-2 img {
+    width: 100%;
+    max-width: 25px;
+}
+
+.form-solid {
+    background-color: #F5F8FA;
+    border-color: #F5F8FA;
+    color: #5E6278;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.form-solid:focus {
+    background-color: #F5F8FA;
+    border-color: #F5F8FA;
+    color: #5E6278;
+}
+
+/* for font */
+.start-week {
+    cursor: pointer;
+}
+
+
+
+/* for select file */
+.file-select label {
+    cursor: pointer;
+    min-width: 100px;
+    max-width: 250px;
+    position: relative;
+}
+
+.file-select label span {
+    padding: 3px 15px;
+    border: 1px solid grey;
+    background: white;
+    color: black;
+    border-radius: 1.5rem;
+}
+
+.file-select label img {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    max-height: 200px;
+    box-shadow: 0 0 3px #80808052;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: none;
+}
+
+.file-select label input[type="file"] {
+    top: 0;
+    left: 15px;
+    outline: 0;
+    width: 5px;
+    height: 5px;
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+}
+
+.img-icon {
+    max-width: 100%;
+}
+
+.select-target {
+    height: 40px;
+    border-radius: 5px;
+    width: max-content;
+    padding: 3px 40px 3px 8px;
+    border: 1px solid #ececec;
+    box-shadow: 0 0 1px #000000a1;
+}
+
+.file-select-icon {
+    z-index: 5;
+    margin-top: 1px;
+    font-size: 30px;
+    color: #039eab;
+    position: absolute;
+}
+
+label.file-select {
+    cursor: pointer;
+}
+
+label.file-select img {
+    border: 5px solid silver;
+    border-radius: 8px;
+    /* position: absolute; */
+    max-width: 100%;
+    height: 225px;
+}
+
+.select-target b {
+    margin-left: 35px;
+    line-height: 30px;
+}
+
+.settings-status {
+    margin-left: auto;
+}
+
+.settings-status span.switch-button {
+    font-size: 15px !important;
+    padding: 10px 15px !important;
+}

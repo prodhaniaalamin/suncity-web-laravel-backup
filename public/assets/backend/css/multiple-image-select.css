@@ -1,0 +1,81 @@
+.file-select-container .image {
+    position: relative;
+    margin: 0 10px 10px 0;
+    width: 135px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.file-select-container .image.edit-image {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.file-select-container input[type="file"] {
+    display: none;
+}
+
+.file-select-container .image i.fa-times-circle {
+    cursor: pointer;
+    font-size: 22px;
+    background: white;
+    border-radius: 50%;
+    color: #ff4b5e;
+    display: none;
+    transition: all 0.25s;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 999;
+}
+
+.file-select-container .image:hover>input[type="file"]+i.btn-remove {
+    display: block;
+    transform: scale(1.1);
+}
+
+
+.file-select-container .indicator-label {
+    background-image: linear-gradient(to right,
+            #2ab5ff,
+            #1092d8,
+            #319197 100%,
+            #319197 200%);
+    background-position-x: 0%;
+    background-size: 200%;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    padding: 1rem 1.25rem;
+    text-shadow: 0 1px 1px #333;
+    transition: all 0.25s;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+}
+
+.file-select-container .indicator-label:hover {
+    background-position-x: 100%;
+    transform: scale(1.1);
+}
+
+.image-gallery .image.selected-image, .image-gallery .image.edit-image {
+    width: 180px;
+    height: 110px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+}
+
+.image-gallery .image .indicator-label {
+    margin-top: 25px;
+}
+
+.file-select-container.container-wrap {
+    flex-wrap: wrap;
+}

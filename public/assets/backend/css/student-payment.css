@@ -1,0 +1,150 @@
+.fee-table.table.gy-1 tr,
+.custom-fee-table.table.gy-1 tr {
+    font-size: 15px;
+    min-height: 25px;
+    cursor: pointer;
+    padding: 0.30rem 0.50rem;
+}
+
+.fee-table.table.gy-1 tr td {
+    padding-right: 14px !important;
+    min-height: 35px !important;
+}
+
+.fee-table>tbody>tr:hover {
+    background-color: #f5f5f585;
+}
+
+.fee-table>tbody>tr:hover>td i.fa-check,
+.fee-table>tbody>tr.selected td i.fa-check {
+    display: inline;
+}
+
+p.amount-show {
+    width: 65px
+}
+
+p.amount-show i {
+    float: right;
+}
+
+.fee-table td div.custom i.fa-pen-alt {
+    padding: 8px;
+    margin-left: auto;
+    transition: all 0.2s;
+}
+
+.fee-table div.custom i.fa-pen-alt:hover {
+    color: white;
+    background: darkcyan;
+    border-radius: 3px;
+}
+
+.custom {
+    margin-left: auto;
+    min-width: 140px;
+    position: absolute;
+    right: 0;
+}
+
+.custom input[type="number"]+i.fa-pen-alt,
+.custom input[type="text"]+i.fa-pen-alt {
+    display: none;
+}
+
+.custom input[type="hidden"]+i+span {
+    display: none !important;
+}
+
+.custom span {
+    width: 50px;
+    transition: all 0.2s;
+    margin-left: 4px;
+}
+
+.custom span > i {
+    cursor: pointer;
+    padding: 9px 5px;
+    font-weight: bolder !important;
+}
+.custom span:hover {
+    background: #f5f5f585;
+}
+
+span > i.fa-undo-alt {
+    color: orange;
+}
+
+.custom span > i.fa-check-circle {
+    color: #05cf34;
+    font-size: 15px;
+    line-height: 12px;
+}
+
+span.close i.fa-plus {
+    color: #A1A5B7;
+    text-shadow: 0 1px 0 #fff;
+    transform: rotate(45deg);
+}
+
+.fee-container {
+    height: 30px;
+    min-width: 60px;
+    max-width: 120px;
+}
+
+.fee-table .monthly-payment {
+    position: absolute;
+    background: white;
+    padding: 0 36px 0 30px;
+    margin-top: 32px;
+    margin-left: 4px;
+    display: none;
+    z-index: 9;
+    width: 100%;
+    left: 0;
+}
+
+.monthly-payment ul {
+    list-style: none;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+}
+
+.monthly-payment ul li {
+    padding: 5px 0 3px 15px;
+    border-radius: 0.475rem;
+    border-bottom: 1px solid #fff;
+}
+
+.monthly-payment ul li:hover,
+.monthly-payment li.selected {
+    transition: color 0.2s ease, background-color 0.2s ease;
+    border-radius: 0.475rem;
+    background-color: #F1FAFF;
+    color: #009EF7;
+}
+
+.monthly-payment ul li.paid {
+    pointer-events: none;
+    opacity: 0.6;
+    background-color: #F1FAFF;
+    color: #009EF7;
+}
+
+.close-ok {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.total-details {
+    max-width: 400px;
+    margin: 5px 250px 0 auto;
+}
+
+li.paid span+span {
+    float: right;
+    margin-right: 50%;
+    padding: 1px 9px;
+    border-radius: 3px;
+}
